@@ -1,0 +1,28 @@
+{
+  "name": "videojuegos-backend",
+  "version": "1.0.0",
+  "description": "backend para el examen de pixzelle, simulando una compañia para analizar los juegos actuales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alainpereida/videojuegos-backend.git"
+  },
+  "author": "Alain Pereida Prado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alainpereida/videojuegos-backend/issues"
+  },
+  "homepage": "https://github.com/alainpereida/videojuegos-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "sequelize": "^6.6.5"
+  }
+}
